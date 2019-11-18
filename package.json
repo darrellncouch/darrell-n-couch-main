@@ -1,0 +1,24 @@
+{
+  "name": "darrell-n-couch-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-angular": "cd ./ClientApp && npm install && ng build",
+    "start": "npm run build-angular && npm install && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrellncouch/darrell-n-couch-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrellncouch/darrell-n-couch-main/issues"
+  },
+  "homepage": "https://github.com/darrellncouch/darrell-n-couch-main#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
